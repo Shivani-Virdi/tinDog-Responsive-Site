@@ -1,0 +1,154 @@
+body{
+  font-family: "Montserrat";
+  font-weight: 400;
+}
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+}
+h1{
+  font-family:"Montserrat";
+  font-size: 3.2rem;
+  font-weight: 900;
+  line-height: 1.5;
+  width: 100%
+}
+.container-fluid{
+  padding: 3% 15% 2%;
+}
+.navbar{
+  padding: 0 0 4.5rem 0;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-weight: bold;
+  font-size: 2.5rem;
+
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 400;
+}
+
+
+/* download buttons */
+.download_btn{
+  margin: 5% 3% 5% 0;
+}
+
+
+/* title image */
+.title_img{
+   width: 65%;
+   transform: rotate(25deg);
+   position: absolute;
+   right: 30%;
+}
+
+h3{
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 1.3rem
+}
+
+h2{
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+#features{
+  position: relative;
+  background-color: #fff;
+}
+.feat{
+  /* width: 90%; */
+  align-content: center;
+  padding: 3% 10% 3% 10%;
+
+}
+.each_feat{
+  text-align: center;
+  padding:  8% 5%;
+}
+.fa-3x{
+  color: #ef8172;
+}
+.fa-3x:hover{
+  color:#ff4c68;
+}
+.writeup{
+  color: #8f8f8f;
+  font-size: 0.9rem;
+}
+
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+  text-align: center;
+}
+
+.press-logo{
+  width: 15%;
+  padding: 20px 20px 50px;
+}
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-coloumn{
+  padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+  #title{
+    text-align: center;
+  }
+  .title_img {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.note{
+  color: #fff;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#footer{
+  text-align: center;
+  padding: 5% 7%;
+}
+
+.cicon{
+  margin: 2.5% 1.2%
+}
